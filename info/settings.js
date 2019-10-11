@@ -1,5 +1,7 @@
-let font_impact = loadFont('impact.ttf');
-let font_ubuntu = loadFont('Ubuntu.ttf');
+new p5();
+
+let font_impact = loadFont('info/fonts/impact.ttf');
+let font_ubuntu = loadFont('info/fonts/Ubuntu.ttf');
 
 let fonts = {
   impact: font_impact,
