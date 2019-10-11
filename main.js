@@ -6,8 +6,8 @@ new p5();
 function setup() {
   createCanvas(windowWidth, windowHeight);
   settings_button = new Clickable();
-  settings_button.color(colors.white);
-  settings_button.textColor(colors.black);
+  settings_button.color = colors.white;
+  settings_button.textColor = colors.black;
   settings_button.locate(200, 200);
 }
 
@@ -17,19 +17,19 @@ function draw() {
 }
 
 settings_button.onOutside = function() {
-  settings_button.text("Click Me OwO")
+  settings_button.text = "Click Me OwO"
 }
 
 settings_button.onHover = function() {
-  settings_button.text("Please Yes Daddy");
+  settings_button.text = "Please Yes Daddy";
 }
 
 settings_button.onPress = function() {
-  settings_button.text("Uhhhhhhh yeah");
+  settings_button.text = "Uhhhhhhh yeah";
 }
 
 settings_button.onRelease = function() {
-  settings_button.text("harder daddy");
+  settings_button.text = "harder daddy";
 }
 
 function setTextColors() {
