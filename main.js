@@ -8,6 +8,7 @@ function setup() {
   settings_button = new Clickable();
   settings_button.color(colors.white);
   settings_button.textColor(colors.black);
+  settings_button.locate(200, 200);
 }
 
 function draw() {
