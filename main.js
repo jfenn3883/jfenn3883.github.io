@@ -3,13 +3,11 @@
 
 new p5();
 
-settings_button = new Clickable();
-settings_button.color(colors.white);
-settings_button.textColor(colors.black);
-settings_button.text("Hello World");
-
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  settings_button = new Clickable();
+  settings_button.color(colors.white);
+  settings_button.textColor(colors.black);
 }
 
 function draw() {
