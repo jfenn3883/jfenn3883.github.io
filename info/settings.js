@@ -24,8 +24,8 @@ let colors = {
 };
 
 let settings = {
-  background_color: colors.black,
-  text_color: colors.white,
+  background_color: colors.white,
+  text_color: colors.black,
   font_: fonts.ubuntu,
   text_size: 24
 };
