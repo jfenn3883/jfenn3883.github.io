@@ -3,7 +3,7 @@
 
 function setup() {
   let canvas = createCanvas(windowWidth, windowHeight);
-  canvas.parent("canvas");
+  canvas.parent("canva");
 }
 
 function draw() {
