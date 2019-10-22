@@ -8,7 +8,6 @@ function setup() {
 }
 
 function draw() {
-  background(settings.background_color);
 }
 
 
