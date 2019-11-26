@@ -15,7 +15,7 @@ function draw() {
   textSize(48);
   fill(colors.white);
   textAlign(CENTER, CENTER);
-  text("sowwy, we couwd not find the wequested wink", windowWidth / 2, 2 * windowHeight / 5);
+  text("sowwy, we couwd not find the wequested wink", windowWidth / 2, 30 + (windowHeight / 5));
 }
 
 function windowResized() {
