@@ -1,7 +1,9 @@
 // manages the 404 page
 
+let canvas404; // creating a global canvas
+
 function setup() {
-  let canvas404 = createCanvas(windowWidth, windowHeight);
+  canvas404 = createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
