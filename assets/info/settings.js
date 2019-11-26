@@ -22,6 +22,6 @@ let colors = {
 let settings = {
   background_color: colors.white,
   text_color: colors.black,
-  font_: fonts.ubuntu,
+  font_: font_impact,
   text_size: 24
 };
