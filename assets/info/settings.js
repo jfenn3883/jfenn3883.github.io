@@ -20,7 +20,8 @@ let colors = {
   purple: 'rgb(191, 0, 255)',
   pink: 'rgb(255, 0, 191)',
   black: 'rgb(0, 0, 0)',
-  white: 'rgb(255, 255, 255)'
+  white: 'rgb(255, 255, 255)',
+  offblack: 'rgb(54, 54, 54)'
 };
 
 let settings = {
