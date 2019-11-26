@@ -1,4 +1,4 @@
-# Trackingr
+# Evacurity
 
 A website that allows its users to sign in and report their whereabouts and safety to a designated supervisor during emergancy situations.
 - Log on and save login info for quick access later.
