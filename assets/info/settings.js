@@ -1,12 +1,12 @@
 new p5();
 
-let font_impact = loadFont('info/fonts/impact.ttf');
+/* let font_impact = loadFont('info/fonts/impact.ttf');
 let font_ubuntu = loadFont('info/fonts/Ubuntu.ttf');
 
 let fonts = {
   impact: font_impact,
   ubuntu: font_ubuntu
-};
+}; */
 
 let colors = {
   red: 'rgb(255, 0, 0)',
@@ -26,6 +26,6 @@ let colors = {
 let settings = {
   background_color: colors.white,
   text_color: colors.black,
-  font_: fonts.ubuntu,
+  //font_: fonts.ubuntu,
   text_size: 24
 };
