@@ -7,7 +7,7 @@ function setup() {
 function draw() {
   background(colors.offblack);
   
-  textFont(settings.font);
+  textFont(settings.font_);
   textSize(100); // 404 text
   fill(colors.white);
   textAlign(CENTER, CENTER);
