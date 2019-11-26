@@ -9,12 +9,12 @@ function draw() {
    
   textSize(100); // 404 text
   fill(colors.white);
-  textAlign(CENTER, BOTTOM);
+  textAlign(CENTER, CENTER);
   text("404", windowWidth / 2, 150 + windowHeight / 5);
   
-  textSize(32);
+  textSize(24);
   fill(colors.white);
-  textAlign(CENTER, TOP);
+  textAlign(CENTER, CENTER);
   text("sowwy, we couwd not find the wequested wink", windowWidth / 2, 200 + windowHeight / 5);
 }
 
