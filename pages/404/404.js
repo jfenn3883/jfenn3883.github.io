@@ -7,13 +7,12 @@ function setup() {
 function draw() {
   background(colors.offblack);
   
-  textFont(settings.font_);
-  textSize(100); // 404 text
+  textFont(settings.font_, 100);
   fill(colors.white);
   textAlign(CENTER, CENTER);
   text("404 Error", windowWidth / 2, 150 + windowHeight / 5);
   
-  textSize(24);
+  textFont(settings.font_, 24)
   fill(colors.white);
   textAlign(CENTER, CENTER);
   text("sowwy, we couwd not find the wequested wink", windowWidth / 2, 200 + windowHeight / 5);
