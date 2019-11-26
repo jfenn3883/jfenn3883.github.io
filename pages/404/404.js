@@ -5,12 +5,12 @@ function setup() {
 }
 
 function draw() {
-  background(colors.black);
+  background(colors.offblack);
    
   textSize(100); // 404 text
   fill(colors.white);
   textAlign(CENTER, CENTER);
-  text("404", windowWidth / 2, 150 + windowHeight / 5);
+  text("404 Error", windowWidth / 2, 150 + windowHeight / 5);
   
   textSize(24);
   fill(colors.white);
