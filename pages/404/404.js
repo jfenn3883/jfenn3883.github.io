@@ -7,9 +7,9 @@ function setup() {
 }
 
 function draw() {
-  canvas404.background(colors.black)
+  background(colors.black)
 }
 
 function windowResized() {
-  canvas404.resizeCanvas(windowWidth, windowHeight);
+  resizeCanvas(windowWidth, windowHeight);
 }
