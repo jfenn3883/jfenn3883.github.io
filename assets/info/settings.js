@@ -16,7 +16,8 @@ let colors = {
   pink: 'rgb(255, 0, 191)',
   black: 'rgb(0, 0, 0)',
   white: 'rgb(255, 255, 255)',
-  offblack: 'rgb(33, 33, 33)'
+  offblack: 'rgb(33, 33, 33)',
+  offwhite: 'rgb(224, 224, 224)'
 };
 
 let settings = {
