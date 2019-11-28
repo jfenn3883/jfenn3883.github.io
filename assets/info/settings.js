@@ -20,8 +20,8 @@ let colors = {
 };
 
 let settings = {
-  background_color: colors.white,
-  text_color: colors.black,
+  background_color: colors.offblack,
+  text_color: colors.white,
   font_: font_impact,
   text_size: 24
 };

@@ -18,6 +18,6 @@ function draw() {
   text("sowwy, we couwd not find the wequested wink", windowWidth / 2, 230 + windowHeight / 5);
 }
 
-function windowResized() { // a function that
+function windowResized() { // a function that resizes the canvas if it changes size
   resizeCanvas(windowWidth, windowHeight);
 }
